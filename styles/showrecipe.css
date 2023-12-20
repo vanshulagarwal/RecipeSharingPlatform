@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    background-color: #f0f0f0;
+}
+.recipe-content{
+    width:80%;
+    margin: 20px 10% 20px 10%;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px 0px #a4a4a4;
+    background-color:  white;
+}
+
+.recipe-content>div{
+    margin:20px 0;
+}
+
+.recipeimg{
+    text-align: center;
+    height: 50vh;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.veg-image {
+    width: 20px;
+}
+
+.recipe-delete-btn {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+.recipe-delete-btn:hover {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.65);
+    transform: translateY(-1px);
+}
